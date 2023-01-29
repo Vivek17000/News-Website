@@ -16,10 +16,7 @@ import {
 
 
 export default class App extends Component {
-<<<<<<< HEAD
   pageSize = 70
-=======
-  pageSize = 7
   state = {
     progress : 0
   }
@@ -28,7 +25,7 @@ export default class App extends Component {
     this.setState({progress : progress})
   }
 
->>>>>>> 75ed0b70873056bee7d70059dec9b8ab108f58e4
+
   render() {
     return (
      <div>
