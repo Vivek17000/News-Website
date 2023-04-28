@@ -15,6 +15,7 @@ import {
 } from "react-router-dom";
 
 
+<<<<<<< HEAD
 const App =() => {
   const pageSize = 8;
  
@@ -23,6 +24,20 @@ const App =() => {
   
 
 
+=======
+export default class App extends Component {
+  pageSize = 70
+  state = {
+    progress : 0
+  }
+  
+  setProgress = (progress) => {
+    this.setState({progress : progress})
+  }
+
+
+  render() {
+>>>>>>> 5c460d6d38e6e0ac66b16d0f17c7e3390d1d5239
     return (
      <div>
 
